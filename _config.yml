@@ -1,8 +1,29 @@
+### REQUIRED SETTINGS ###
+
 # Set a plain language title for the site.
-title: USWDS Boilerplate
+title: Site Nav Test Drive
 
 # Write a short description for the site. This is used for "meta description."
-description: A starting point for publishing a site using Jekyll, GitHub Pages, and a hosted version of the U.S. Web Design System
+description: Try out new navigation with usability tests in realtime on a working site
+
+# Enable for live hosting on GitHub Pages.
+# It should start with a slash (/) and then match the name of your repository exactly.
+baseurl: /site-nav-test-drive
+
+# =============================================================================
+
+### TEST SITE SETTINGS ###
+
+# The URL of the site you want to test.
+test-site: "http://www.usa.gov/"
+
+# The amount of offsite needed to cover the test site nav with the new nav.
+# Increase the negative number value to move the test site "up" so more of it is covered by the new nav.
+nav-offset: -24
+
+# =============================================================================
+
+### OPTIONAL SETTINGS ###
 
 # Set the language for the site. Used for "html lang." Default is English.
 lang: en
@@ -12,9 +33,6 @@ ga: UA-XXXXX-Y
 
 # Avoid GitHub API authentication when building locally. (Not working)
 github: [metadata]
-
-# Enable for live hosting on GitHub Pages
-baseurl: /uswds-boilerplate
 
 # Remove generation of additional style.css
 theme: null
