@@ -67,9 +67,9 @@
       <ul class="usa-nav__primary usa-accordion">
         {% for item in page.nav %}
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two"><span>{{ item.title }}</span></button>
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two{{ forloop.index }}"><span>{{ item.title }}</span></button>
           {% if item.subnav %}
-          <ul id="extended-nav-section-two" class="usa-nav__submenu">
+          <ul id="extended-nav-section-two{{ forloop.index }}" class="usa-nav__submenu">
             {% for entry in item.subnav %}
             <li class="usa-nav__submenu-item">
               <a href="{{ entry.url }}" class="">{{ entry.title }}</a>
