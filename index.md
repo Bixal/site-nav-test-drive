@@ -3,25 +3,31 @@ layout: default
 title: Home
 nav:
   - title: Introduction
-    url: tbd
-    current: true
-  - title: What we strive for
-    url: tbd
+    url: intro.html
+    subnav:
+      - title: What we Strive for
+        url: strive.html
+      - title: Conduct unbecoming a federal employee
+        url: conduct.html
+      - title: Other unacceptable behavior
+        url: behavior.html    
   - title: Unnaceptable behavior
     url: tbd
     subnav:
-      - title: Sexual and non sexual harassment
-        url: tbd
-      - title: Conduct unbecoming a federal employee
-        url: tbd
-      - title: Other unacceptable behavior
-        url: tbd    
+      - title: ua1
+        url: ua1.html
+      - title: ua2
+        url: ua2.html
+      - title: ua3
+        url: ua3.html
   - title: Reporting violations
-    url: tbd
-  - title: Credits
-    url: tbd
-  - title: Version
-    url: tbd
+    subnav:
+      - title: rv1
+        url: rv1.html
+      - title: rv2
+        url: rv2.html
+      - title: rv3
+        url: rv3.html
 ---
 # {{ site.title }}
 

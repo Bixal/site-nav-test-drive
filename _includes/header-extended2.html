@@ -66,21 +66,26 @@
     <div class="usa-nav__inner"><button class="usa-nav__close"><img src="https://cdnjs.cloudflare.com/ajax/libs/uswds/2.11.1/img/usa-icons/close.svg" role="img" alt="close"></button>
       <ul class="usa-nav__primary usa-accordion">
         {% for item in page.nav %}
+        {% if item.subnav %}
         <li class="usa-nav__primary-item">
-          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="extended-nav-section-two{{ forloop.index }}"><span>{{ item.title }}</span></button>
-          {% if item.subnav %}
-          <ul id="extended-nav-section-two{{ forloop.index }}" class="usa-nav__submenu">
+          <button class="usa-accordion__button usa-nav__link" aria-expanded="false" aria-controls="{{ item.title | slugify }}"><span>{{ item.title }}</span></button>
+          <ul id="{{ item.title | slugify }}" class="usa-nav__submenu">
             {% for entry in item.subnav %}
             <li class="usa-nav__submenu-item">
               <a href="{{ entry.url }}" class="">{{ entry.title }}</a>
             </li>
             {% endfor %}
           </ul>
-          {% endif %}
         </li>
+        {% else %}
+        <li class="usa-nav__primary-item">
+            <a href="{{ item.url }}" class="usa-nav__link">
+              <span>{{ item.title }}</span>
+            </a>
+        </li>
+        {% endif %}
         {% endfor %}
       </ul>
-
       <div class="usa-nav__secondary">
         <ul class="usa-nav__secondary-links">
           <li class="usa-nav__secondary-item">
