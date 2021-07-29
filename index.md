@@ -3,31 +3,29 @@ layout: default
 title: Home
 nav:
   - title: Introduction
-    url: intro.html
     subnav:
-      - title: What we Strive for
-        url: strive.html
-      - title: Conduct unbecoming a federal employee
-        url: conduct.html
-      - title: Other unacceptable behavior
-        url: behavior.html    
-  - title: Unnaceptable behavior
-    url: tbd
+      - title: Grants
+        url: "https://www.usa.gov/grants"
+      - title: Food
+        url: "https://www.usa.gov/food-help"
+      - title: Affordable Rentals
+        url: "https://www.usa.gov/finding-home"    
+  - title: Jobs
     subnav:
-      - title: ua1
-        url: ua1.html
-      - title: ua2
-        url: ua2.html
-      - title: ua3
-        url: ua3.html
-  - title: Reporting violations
+      - title: Unemployment Help
+        url: "https://www.usa.gov/unemployment"
+      - title: Retirement
+        url: "https://www.usa.gov/retirement"
+      - title: Small Business
+        url: "https://www.usa.gov/business"
+  - title: Money
     subnav:
-      - title: rv1
-        url: rv1.html
-      - title: rv2
-        url: rv2.html
-      - title: rv3
-        url: rv3.html
+      - title: Taxes
+        url: "https://www.usa.gov/taxes"
+      - title: Currency
+        url: "https://www.usa.gov/currency"
+      - title: Consumer Issues
+        url: "https://www.usa.gov/consumer"
 ---
 # {{ site.title }}
 
