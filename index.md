@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav:
-  - title: Introduction
+  - title: Benefits
     subnav:
       - title: Grants
         url: "https://www.usa.gov/grants"
