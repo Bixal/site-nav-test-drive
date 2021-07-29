@@ -15,7 +15,7 @@ baseurl: /site-nav-test-drive
 ### TEST SITE SETTINGS ###
 
 # The URL of the site you want to test.
-test-site: "http://www.usa.gov/"
+test-site: "https://www.usa.gov/"
 
 # The name of the site you want to appear in the header section.
 test-site-name: "USA.gov"
