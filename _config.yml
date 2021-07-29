@@ -21,6 +21,11 @@ test-site: "http://www.usa.gov/"
 # Increase the negative number value to move the test site "up" so more of it is covered by the new nav.
 nav-offset: -24
 
+# The primary brand color to match the new nav with the test site.
+# It should be a dark color in hex format (e.g., #a23737) that contrasts well with white.
+# If in doubt, use a color from grade 60 or higher from USWDS System Color Tokens: https://designsystem.digital.gov/design-tokens/color/system-tokens/
+brand-color: "#a23737"
+
 # =============================================================================
 
 ### OPTIONAL SETTINGS ###
