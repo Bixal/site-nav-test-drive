@@ -72,14 +72,14 @@
           <ul id="{{ item.title | slugify }}" class="usa-nav__submenu">
             {% for entry in item.subnav %}
             <li class="usa-nav__submenu-item">
-              <a href="{{ entry.url }}" class="">{{ entry.title }}</a>
+              <a href="{{ entry.url }}" target="test-site">{{ entry.title }}</a>
             </li>
             {% endfor %}
           </ul>
         </li>
         {% else %}
         <li class="usa-nav__primary-item">
-            <a href="{{ item.url }}" class="usa-nav__link">
+            <a href="{{ item.url }}" class="usa-nav__link" target="test-site">
               <span>{{ item.title }}</span>
             </a>
         </li>
