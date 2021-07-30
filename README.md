@@ -9,7 +9,7 @@
 ## How it works
 1. Define your new navigation labels with links to the current site.
 1. Enter the address of your current site.
-1. Enter the address of your current site.
+1. Set the amount of overlap you need to hide the current navigation.
 
 You now have a working navigation component layered on top of the current site that testers can use to experience the current content in a new way!
 
