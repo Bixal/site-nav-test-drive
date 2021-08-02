@@ -58,7 +58,7 @@ You'll need to change a few settings in the config file for your site to work pr
 1. Go to the [_config.yml](_config.yml) file in your repository.
 1. Press the `Edit this file` button (pencil icon).
 1. Make changes to following settings:
-    - `test-site`: The URL of the site you want to test.
+    - `test-site`: The URL of the site you want to test. (If the site doesn't appear, it may be restricted from working with site-nav-test-drive.)
     - `test-site-name`: The name of the site you want to appear in the header section.
     - `nav-offset`: The amount of offsite needed to cover the test site nav with the new nav.
     - `brand-color`: The primary brand color to match the new nav with the test site.
