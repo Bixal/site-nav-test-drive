@@ -1,8 +1,7 @@
 # Site Nav Test Drive
 
-<div class="flash">
-  This tool will not work with sites that have Cross-Origin Resource Sharing (CORS) restrictions, which prevents some sites from appearing in an <code>iframe</code> element on another site.
-</div>
+This tool will not work with sites that have Cross-Origin Resource Sharing (CORS) restrictions, which prevents some sites from appearing in an <code>iframe</code> element on another site.
+{: .flash}
 
 ## Why you need it
 
