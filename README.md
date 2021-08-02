@@ -1,5 +1,9 @@
 # Site Nav Test Drive
 
+<div class="flash">
+  This tool will not work with sites that have Cross-Origin Resource Sharing (CORS) restrictions, which prevents some sites from appearing in an <code>iframe</code> element on another site.
+</div>
+
 ## Why you need it
 
 - Try out new navigation with usability tests in realtime on a working site.
